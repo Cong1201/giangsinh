@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC");
 @font-face {
-    font-family: 'Merry'; 
-    src: url('./Merry.ttf') format('truetype'); 
-    font-weight: normal; 
-    font-style: normal; 
+  font-family: "Merry";
+  src: url("./Merry.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -126,7 +126,7 @@ body {
 #showButton {
   background-color: #f56060;
   color: white;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   padding: 15px 32px;
   border: none;
@@ -232,7 +232,7 @@ a {
   width: 100%;
   text-align: center;
   padding: 10px 0;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 12px;
   color: #ffffff00;
 }
@@ -249,7 +249,7 @@ h4 {
 .card {
   color: #013243;
   position: absolute;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   letter-spacing: 1px;
   top: 50%;
   left: 50%;
@@ -326,6 +326,7 @@ h4 {
 }
 
 .card .details {
+  background-image: url();
   position: absolute;
   top: 0;
   left: 0;
@@ -348,4 +349,10 @@ h4 {
 
 .text-right {
   text-align: right;
+}
+.imgtext {
+  background-size: 1000px;
+  width: 100px;
+  height: 100px;
+  align-items: flex-end;
 }
